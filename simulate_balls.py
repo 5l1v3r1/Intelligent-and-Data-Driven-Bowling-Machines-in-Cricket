@@ -10,6 +10,10 @@ import matplotlib.animation as animation
 import time
 import random
 
+'''
+Note: The code is not well written. I just wanted to get stuff done. If you have any questions about the code, feel free to ask.
+'''
+
 #Loading our wicket image
 image_name = 'with_wicket.jpg'
 im = np.array(Image.open(image_name), dtype=np.uint8)
